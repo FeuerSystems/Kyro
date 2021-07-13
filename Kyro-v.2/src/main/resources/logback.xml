@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%boldMagenta(%-15.-15logger{0})│  %boldBlue(%-6level)│ %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="FILE-OUT" class="ch.qos.logback.core.FileAppender">
+        <file>./bot/log.txt</file>
+        <append>false</append>
+        <encoder>
+            <pattern>%boldMagenta(%-15.-15logger{0})│  %boldBlue(%-6level)│ %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE-OUT"/>
+    </root>
+</configuration>

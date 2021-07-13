@@ -1,0 +1,25 @@
+{
+  "BOT INFO": "This JSON object contains all data needed for the core of kyro to operate",
+ "bot": {
+   "token": "YOUR_TOKEN_HERE",
+   "prefix": "YOUR_DEFAULT_PREFIX_HERE",
+   "owner_id": "YOUR_ID_HERE",
+   "coOwners": ["Put","Your","Co","Owners","Ids","Here"],
+   "error_channel": "LOG_CHANNEL_ID_OF_SUPPORT_SERVER_HERE",
+   "support_server": "SUPPORT_SERVER_HERE"
+ },
+  "MUSIC INFO": "This JSON object contains the tokens for kyro to use youtube search and lyric support",
+  "music": {
+    "ksoft_token": "YOUR_KSOFT_SI_TOKEN",
+    "yt_token": "YOUR_YT_TOKEN_HERE"
+  },
+  "DB INFO": "This JSON object contains the database info needed for Kyro",
+  "db": {
+    "ip": "YOUR_MONGO_DB_IP",
+    "port": "YOUR_MONGO_DB_PORT"
+  },
+  "API INFO": "This JSON object contains kyro's internal API for stat pages, web dashboards, and logs.",
+  "api": {
+    "port": "SET_API_PORT_HERE"
+  }
+}
